@@ -49,5 +49,10 @@ git fetch origin foo
 git push origin:side #push空到远程仓库会删除远程仓库中的分支
 git fetch origin:bugFix # fetch空到本地，会创建一个新分支
 #git pull 就是fetch和merge的缩写，可以理解为用同样的参数执行git fetch，然后再merge 所抓取到的提交记录
+
+git remote -v 
+git remote set-url origin <remote-url>
+git remote add origin <remote-url>
+git remote rm origin
 ```
 
